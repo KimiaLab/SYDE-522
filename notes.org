@@ -1,0 +1,32 @@
+* Machine Intelligence
+
+** Lecture 1: January 3rd
+
+*** Difference between?
+- AI (Animal intelligence)
+- ML (Part of AI that works)
+- MI (ML + Fuzzy + Evolution)
+- CI (FNNs + Fuzzy + Evolution)
+
+*** What is AI?
+- We promised GPC (General Problem Solver)
+- But could not deliver.
+
+*** Four points in learning
+- Think Humanly
+- Think Rationally
+- Acting Humanly
+- Acting Rationally (this is ML)
+
+*** What is intelligence?
+
+*Turing Test*: Alan Turing
+
+Watch: https://www.youtube.com/watch?v=3wLqsRLvV-c
+
+The M-IQ is proportional to the time that takes for the judge to find out which
+room is operated by computer.
+
+*Chinese Room*: John Searle
+
+Read: http://www.iep.utm.edu/chineser/
