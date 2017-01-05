@@ -30,3 +30,57 @@ room is operated by computer.
 *Chinese Room*: John Searle
 
 Read: http://www.iep.utm.edu/chineser/
+** Lecture 2: January 5th
+
+*** What is intelligent?
+Example: Tic-Tac-Toe
+
+- *Solutions 1*: Hand wired (look-up table)
+  - Simple and efficient
+  - Not intelligent
+
+- *Solution 2*: Some if-else rule to play
+  - Still not intelligent
+
+- *Solution 3*: ML solution
+  - Represent the state of the game.
+    - Current board positions
+    - Next legal positions
+  - Use evaluation function
+  - rate the next move (how likely to win)
+  - Look ahead for possible opponent's moves
+
+** Issues of ML?
+
+Keep in mind that machine learning is just *function approximation*. However, we
+cannot see that function.
+
+1. What algorithm can approximate my function?
+2. How much training data do I need?
+3. How complex is the problem?
+4. Do you have noise in the data?
+5. What are the limits of learn-ability? What can be learned and what cannot be
+   learned?
+6. Can prior knowledge help?
+7. What representation does really fit my data?
+
+** Terminology
+
+1. *Data*
+   - Visual
+   - Symbols
+   - Audio
+   - Text
+2. *Preporcessing*
+   - Filtering
+   - Normalization
+   - Outlier detection
+   - Dimensionality reduction
+3. *Features (attributes)*
+   - Data representation
+     1. Hand-crafted features (e.g., SIFT)
+     2. Automatically extracted features (e.g., CNN)
+4. *Encoding*
+   - Compressing Data
+     1. Conventional (PCA, Fisher vectors)
+     2. ML (autoencoders, t-SNE)
