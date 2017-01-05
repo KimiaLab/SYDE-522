@@ -1,0 +1,19 @@
+* Machine Intelligence
+
+Collection of lecture/tutorial notes and other resources maintained for SYDE 522.
+
+** TA Information
+
+*Name:* Shivam Kalra
+
+*Email:* shivam.kalra /at/ uwaterloo.ca
+
+*Office:* EC4, 2007A
+
+*Office Hours:* Drop me an email
+
+
+
+
+
+
