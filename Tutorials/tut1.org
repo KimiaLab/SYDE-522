@@ -1,0 +1,89 @@
+* Tutorial 1
+
+** What's expected?
+
+- Work through various machine learning algorithms using simple toy data-sets.
+- Leverage Python packages for machine learning and data science.
+- Perform practical experiments using whats is taught in the lectures.
+- Understand the development and combination of machine learning methods to tackle a given problem.
+- Explore visualization techniques used in data science.
+- Discover what deep learning is all about.
+- Explore GPU and parallel computing for ML algorithms in Python.
+- Explore LaTeX for writing scientific paper.
+
+** About me
+
+I'm Shivam Kalra, MASc. candidate under supervision of *Prof. Hamid R.
+Tizhoosh*. My research interests are in *Deep learning* and *evolutionary
+algorithms*. I mostly work with *Python* for my research. Fanboy of Arch Linux,
+Awesome WM and Emacs.
+
+** Quick survey
+https://goo.gl/forms/mvEOWGE1YkgYWfAj2
+
+[[file:./images/survey_qr.png]]
+
+** Today's agenda
+- Explore some open data-sets (UCI and Kaggle)
+- Explore some Kaggle competitions
+- Explore sample projects from past years
+- Setup Python environment and some packages
+
+** Why open data-sets
+- Need data-sets to work with any machine learning algorithms
+- Compare your approach with others
+
+** Resources for open data-sets
+
+
+- https://archive.ics.uci.edu/ml/datasets.html
+- https://www.data.gov/
+- https://www.kaggle.com/datasets
+- Twitter streaming API
+
+** General outline of final project
+
+1) Find a problem that is not solved properly, correctly, efficiently
+2) Analyze the problem (is data-set available?)
+3) Select an approach: decision tree, fuzzy logic, reinforcement learning, deep
+   learning.
+4) Justify (empirically) the choice of approach over other possibilities.
+5) Design/customize (fine-tuning, parameter selection) the approach for the
+   problem.
+6) Train your ML models (use bagging, K-fold validation and etc)
+7) Fine tune your models for best AUC.
+8) Try it on testing data (*you cannot you test data for training NO NO NO*)
+9) Compare results with others, ensemble models for better accuracy/results.
+
+** Finding the problem for final project
+- Go through previous year projects on learn: =Course Project >> Sample Projects=
+  =for SYDE 522=
+- Project could be in any field:
+  - Sports
+  - Audio/Music/Multimedia
+  - Computer Vision
+  - Finance/Commerce
+  - Natural Language Processing/Sentiment Analysis
+  - Image Retrieval (talk to Prof. Tizhoosh or me for the data-set)
+  - Visualization
+- Look for interesting Kaggle data-sets.
+  - https://www.kaggle.com/datasets
+  - https://www.kaggle.com/mousehead/songlyrics
+  - https://www.kaggle.com/peterwittek/scirate-quant-ph
+  - https://www.kaggle.com/primaryobjects/voicegender
+  - https://www.kaggle.com/semioniy/predictemall
+- Active Kaggle competitions?
+  - https://www.kaggle.com/competitions
+  - https://www.kaggle.com/c/melbourne-university-seizure-prediction
+  - https://www.kaggle.com/c/painter-by-numbers
+- Improve/compare/survey existing ML algorithms (you can use UCI data-sets).
+- Some projects from stanford courses:
+  - http://cs224d.stanford.edu/reports_2016.html
+  - http://cs231n.stanford.edu/reports2016.html
+  - http://cs229.stanford.edu/projects2015.html
+  - http://cs229.stanford.edu/projects2014.html
+
+** Setting up Python environment
+
+- Python2.7
+- Packages for now: =matplotlib=, =scikit-learn=, =numpy=, =scipy=, =pandas=, =jupyter=
