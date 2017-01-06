@@ -83,7 +83,78 @@ https://goo.gl/forms/mvEOWGE1YkgYWfAj2
   - http://cs229.stanford.edu/projects2015.html
   - http://cs229.stanford.edu/projects2014.html
 
-** Setting up Python environment
+** Environment
+
+We will be using =Python= for the tutorials, but you're free to use any language
+or OS for the final project work.
 
 - Python2.7
-- Packages for now: =matplotlib=, =scikit-learn=, =numpy=, =scipy=, =pandas=, =jupyter=
+- Packages for now: =matplotlib=, =scikit-learn=, =numpy=, =scipy=, =pandas=,
+  =jupyter=
+
+** Setup instruction for Python Environment
+
+I encourage to use Linux environment as it has better support for Deep Learning
+libraries.
+
+I highly recommend to use =Python 2.7= to be compatible with my setup. 
+
+I'll keep the updated list of packages to be installed in [[requirements.txt]]. You
+may run following to install them.
+
+#+BEGIN_SRC shell
+  pip install -r requirement.txt
+#+END_SRC
+
+Look at following instruction below for installation on *Linux environment*:
+
+#+BEGIN_SRC shell
+  # Install virtualenv either use OS package manager or pip
+  pip install --user virtualenv
+
+  # Usually --user flag puts the binary files in ~/.local/bin
+  # Make sure ~/.local/bin is in path to use virtualenv
+
+  # make sure virtualenv is in the PATH if not then see if it is installed
+  # in ~/.local/bin, if not then do global installation of virtualenv (removing
+  # -- user)
+  which virtualenv
+
+
+  # Now, you have virtualenv, create a empty folder where you would work in all
+  # the tutorials
+  mkdir tutorials-syde-522
+  cd tutorials-syde-522
+
+  # Create virtual environment
+  # -p takes path of python2.7 executable as argument (I'm using my system wide
+  # install Python 2.7)
+  # virtualenv -p <PYTHON EXECUTABLE PATH> <ENVIRONMENT NAME>
+  virtualenv -p /usr/bin/python2.7 syde-522-env
+
+  # Above should create a directory syde-522-env with minimal python installed
+  # into it, you can activate that environment by
+  source syde-522-env/bin/activate
+
+  # Tada!! You are in brand new python environment
+  # Make as much mess you want and you can always delete the syde-522-env folder
+  # and create brand new one again!!
+
+  # Install the packages we need for the tutorials
+  # Get requirements.txt file from the course repository
+  wget https://raw.githubusercontent.com/shivamkalra/syde-522/master/Tutorials/requirements.txt
+
+  # Install all the packages
+  pip install -r requirements.txt
+
+#+END_SRC
+
+For *Windows environment* (though I personally recommend to install Linux/Ubuntu on
+openbox or virtualization software and do your setup there).
+
+- You may use anaconda https://www.continuum.io/downloads.
+- Make sure you download Python 2.7
+- Install all required packages using =conda shell=.
+- This tutorial seems nice: https://www.youtube.com/watch?v=FL7Hf4eVjKo
+
+
