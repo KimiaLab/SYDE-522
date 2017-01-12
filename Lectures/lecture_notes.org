@@ -50,7 +50,7 @@ Example: Tic-Tac-Toe
   - rate the next move (how likely to win)
   - Look ahead for possible opponent's moves
 
-** Issues of ML?
+*** Issues of ML?
 
 Keep in mind that machine learning is just *function approximation*. However, we
 cannot see that function.
@@ -64,7 +64,7 @@ cannot see that function.
 6. Can prior knowledge help?
 7. What representation does really fit my data?
 
-** Terminology
+*** Terminology
 
 1. *Data*
    - Visual
@@ -84,3 +84,7 @@ cannot see that function.
    - Compressing Data
      1. Conventional (PCA, Fisher vectors)
      2. ML (autoencoders, t-SNE)
+
+** Lecture 3: January 10th
+
+Posted here: [[Lec3.pdf]]
