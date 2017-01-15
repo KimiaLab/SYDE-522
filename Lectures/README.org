@@ -88,3 +88,7 @@ cannot see that function.
 ** Lecture 3: January 10th
 
 Posted here: [[Lec3.pdf]]
+
+** Lecture 4: January 12th
+
+Posted here: [[Lec4.pdf]]
