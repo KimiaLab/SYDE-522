@@ -1,0 +1,7 @@
+env-tutorial/
+**/.ipynb_checkpoints/
+**/300features_40minwords_10context
+**/datasets/WDI_Data.csv
+**/datasets/WDI_csv/
+
+

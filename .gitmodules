@@ -1,0 +1,3 @@
+[submodule "Tutorials/libs/minisom"]
+	path = Tutorials/libs/minisom
+	url = https://github.com/JustGlowing/minisom.git
