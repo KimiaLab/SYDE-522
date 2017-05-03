@@ -1,14 +1,17 @@
-* Machine Intelligence
+* SYDE 522: Machine Intelligence
 
 Collection of lecture/tutorial notes and other resources maintained for SYDE 522.
 
-** TA Information
+** Tutorials
 
-*Name:* Shivam Kalra
+- [[Tutorials/tut1.org][Tutorial 1: Introduction]]
+- [[Tutorials/tut2.ipynb][Tutorial 2: Principal Component Analysis]]
+- [[Tutorials/tut3.ipynb][Tutorial 3: K-means and TSNE]]
+- [[Tutorials/tut4.ipynb][Tutorial 4: Self Organizing Map (SOM)]]
+- [[Tutorials/tut5.ipynb][Tutorial 5: Cross-validation, Bagging and Ensembling]]
+- [[Tutorials/tut6.ipynb][Tutorial 6: Tensorflow Introduction]]
+- [[Tutorials/tut7.ipynb][Tutorial 7: Autoencoders]]
+- [[Tutorials/tut8.ipynb][Tutorial 8: Convolution Neural Networks (CNNs)]]
+- [[Tutorials/tut9.ipynb][Tutorial 9: Genetic Algorithm]]
 
-*Email:* shivam.kalra /at/ uwaterloo.ca
 
-*Office:* EC4, 2007A
-
-*Office Hours:* Just drop me an email before you come (I'll be also available
-during office hours of Prof. Tizhoosh)
