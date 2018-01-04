@@ -11,6 +11,13 @@
 - Explore GPU and parallel computing for ML algorithms in Python.
 - Explore LaTeX for writing scientific paper.
 
+** Tutorial Assignments 
+- Four tutorial assignments (T1, T2, T3, T4) in syllabus
+- 3% each
+- Consisting of coding exercises
+- Follow instructions very carefully, code must compile and run on Python 3.6
+  (environment we setup during tutorials)
+
 ** About me
 
 I'm Shivam Kalra, MASc. candidate under supervision of *Prof. Hamid R.
@@ -85,7 +92,8 @@ https://goo.gl/forms/CG42LP9sMsth73Ej1
 ** Environment
 
 We will be using =Python= for the tutorials, but you're free to use any language
-or OS for the final project work.
+or OS for the final project. However, only Python 3.6 must be used for
+tutorial's assignments.
 
 - Python 3.6
 - Packages for now: =matplotlib=, =scikit-learn=, =numpy=, =scipy=, =pandas=,
