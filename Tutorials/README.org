@@ -3,31 +3,7 @@
 ** Prerequisite
 
 - Linux (preferably)
-- Python 2.7 (preferably)
+- Python 3.6
 - Jupyter notebook and other packages
+- Use Anaconda Distribution for consistent setup across the class
 
-*Follow setup instructions given in tutorial 1*.
-
-** Cloud access
-
-*** Personal cloud
-*Note:* You can become member of *Computer Science Club, UofW* to access various
-Linux machines for hosting your own python notebook. Membership fees is ~CAD $3.
-
-| Website      | https://csclub.uwaterloo.ca                   |
-| Wiki         | https://wiki.csclub.uwaterloo.ca              |
-| Machine List | https://wiki.csclub.uwaterloo.ca/Machine_List |
-
-*** For class use
-I've setup the Python notebook for entire class, you may access at:
-http://high-fructose-corn-syrup.csclub.uwaterloo.ca:28077. Though multiple people
-simultaneously cannot edit same notebook, therefore follow instructions below
-to avoid any conflicts and corruptions:
-
-*Instructions*
-
-1. *DO NOT* change original notebooks (tut{1,2,3..}.ipynb).
-2. To make changes to an existing notebook, first make its copy =File > Make a Copy...=.
-3. Your copy will be deleted on daily basis unless you move it to =archive= folder.
-4. Make sure you rename your notebooks properly in archive folder to recall it later.
-5. Properly shutdown your running notebooks once you're done working with it.
